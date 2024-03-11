@@ -1,0 +1,16 @@
+.scrollBody {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.post-container {
+    height: 100%; /* Altezza dell'intero schermo */
+}
+
+.post {
+    height: 100%; /* Occupa tutta l'altezza dello schermo */
+    overflow-y: scroll; /* Scorrimento verticale */
+    /* Altri stili per il post, come padding, margin, ecc. */
+}

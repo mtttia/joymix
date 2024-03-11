@@ -15,5 +15,5 @@ use Inertia\Inertia;
 */
 
 Route::get('/', function () {
-    return Inertia::render("Home/HelloWorld.tsx");
+    return Inertia::render("Home/Home");
 });
